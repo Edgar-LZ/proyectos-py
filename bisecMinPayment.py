@@ -7,7 +7,7 @@ Created on Tue Feb  4 16:26:14 2020
 Using the bysection method, finds the minumum monthly payment needed
 to completly pay a balance in one year
 """
-balance = 320000
+balance = 32000
 annualInterestRate = 0.2
 lower = balance/12
 upper = (balance/12.)*(1+annualInterestRate)**12
